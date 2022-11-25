@@ -1,3 +1,9 @@
+:root {
+    --pf-global--primary-color--100: #ea5b0c;
+    --default-background-color: #ea5b0c;
+    --link-hover-color: #ea5b0c;
+}
+
 /* Patternfly CSS places a "bg-login.jpg" as the background on this ".login-pf" class.
    This clashes with the "keycloak-bg.png' background defined on the body below.
    Therefore the Patternfly background must be set to none. */
@@ -6,8 +12,7 @@
 }
 
 .login-pf body {
-    background: url("../img/keycloak-bg.png") no-repeat center center fixed;
-    background-size: cover;
+    background: --default-background-color;
     height: 100%;
 }
 
@@ -26,6 +31,10 @@ p.instruction {
 .pf-c-button.pf-m-control {
     border: solid var(--pf-global--BorderWidth--sm);
     border-color: rgba(230, 230, 230, 0.5);
+}
+
+.pf-c-button.pf-m-primary {
+    background: --default-background-color;
 }
 
 h1#kc-page-title {
