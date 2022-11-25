@@ -12,7 +12,9 @@
 }
 
 .login-pf body {
-    background: --default-background-color;
+    background: var(--default-background-color) url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
     height: 100%;
 }
 
@@ -34,11 +36,12 @@ p.instruction {
 }
 
 .pf-c-button.pf-m-primary {
-    background: --default-background-color;
+    background: var(--default-background-color);
 }
 
 h1#kc-page-title {
     margin-top: 10px;
+    color: var(--pf-global--BackgroundColor-100);
 }
 
 #kc-locale ul {
@@ -162,6 +165,10 @@ div.kc-logo-text span {
 
 #kc-form-wrapper {
     margin-top: 10px;
+}
+
+#kc-form-wraper .kc-form-login label {
+    color: var(--pf-global--active-color-100);
 }
 
 #kc-info {
@@ -498,6 +505,7 @@ ul#kc-totp-supported-apps {
     max-width: 500px;
     border-top: 4px solid;
     border-color: var(--pf-global--primary-color--100);
+    background: var(--pf-global--BackgroundColor--dark-300);
 }
 
 /*phone*/
