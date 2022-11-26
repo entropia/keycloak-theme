@@ -39,6 +39,12 @@ p.instruction {
     background: var(--default-background-color);
 }
 
+h1#kc-page-title::before {
+    content: url{../../../common/entropia/img/pridetopia.svg};
+    width: 200px;
+    height: 290px;
+}
+
 h1#kc-page-title {
     margin-top: 10px;
     color: var(--pf-global--BackgroundColor--100);
@@ -167,7 +173,7 @@ div.kc-logo-text span {
     margin-top: 10px;
 }
 
-#kc-form-wraper .kc-form-login label {
+#kc-form-wrapper .kc-form-login label {
     color: var(--pf-global--active-color--100);
 }
 
