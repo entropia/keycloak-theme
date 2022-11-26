@@ -40,9 +40,14 @@ p.instruction {
 }
 
 h1#kc-page-title::before {
-    content: url{../../../common/entropia/img/pridetopia.svg};
-    width: 200px;
-    height: 290px;
+    content: "";
+    height: 200px;
+    display: block;
+    background-image: url(../../../common/entropia/img/pridetopia.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 143.37px 200px;
+    margin-bottom: 20px;
 }
 
 h1#kc-page-title {
@@ -173,7 +178,7 @@ div.kc-logo-text span {
     margin-top: 10px;
 }
 
-#kc-form-wrapper .kc-form-login label {
+#kc-form-wrapper #kc-form-login label {
     color: var(--pf-global--active-color--100);
 }
 
