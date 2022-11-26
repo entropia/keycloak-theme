@@ -135,6 +135,8 @@ div.kc-logo-text span {
 #kc-username {
     text-align: center;
     margin-bottom:-10px;
+    color: var(--pf-global--palette-black-150);
+    height: 290px;
 }
 
 #kc-webauthn-settings-form {
@@ -146,15 +148,16 @@ div.kc-logo-text span {
 }
 
 #kc-form-webauthn .select-auth-box-desc {
-    color: var(--pf-global--palette--black-600);
+    color: var(--pf-global--palette--black-400);
 }
 
 #kc-form-webauthn .select-auth-box-headline {
-    color: var(--pf-global--Color--300);
+    color: var(--pf-global--palette-black--150);
 }
 
 #kc-form-webauthn .select-auth-box-icon {
     flex: 0 0 3em;
+    color: var(--default-background-color);
 }
 
 #kc-form-webauthn .select-auth-box-icon-properties {
@@ -168,6 +171,10 @@ div.kc-logo-text span {
 
 #kc-form-webauthn .pf-l-stack__item {
     margin: -1px 0;
+}
+
+#kc-form-webauthn .select-auth-box-paragraph {
+    color: var(--pf-global--palette--black-600);
 }
 
 #kc-content-wrapper {
