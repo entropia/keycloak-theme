@@ -16,6 +16,7 @@
     background-position: center;
     background-size: cover;
     height: 100%;
+    color: var(--pf-global--Color--light-200);
 }
 
 textarea.pf-c-form-control {
@@ -209,7 +210,7 @@ div.kc-logo-text span {
 
 #kc-form-options .checkbox {
     margin-top: 0;
-    color: #72767b;
+    color: var(--pf-global--Color--light-300);
 }
 
 #kc-terms-text {
