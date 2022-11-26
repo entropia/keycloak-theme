@@ -179,7 +179,11 @@ div.kc-logo-text span {
 }
 
 #kc-form-wrapper #kc-form-login label {
-    color: var(--pf-global--active-color--100);
+    color: var(--pf-global--BackgroundColor--light-100);
+}
+
+#kc-form-wrapper #kc-form-login .pf-c-form-control {
+    background-color: var(--pf-global--BackgroundColor--light-300);
 }
 
 #kc-info {
