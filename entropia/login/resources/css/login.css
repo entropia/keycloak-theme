@@ -12,7 +12,7 @@
 }
 
 .login-pf body {
-    background: var(--default-background-color) url(../img/background.jpg);
+    background: var(--default-background-color) url(../../../common/entropia/img/background.jpg);
     background-position: center;
     background-size: cover;
     height: 100%;
@@ -41,7 +41,7 @@ p.instruction {
 
 h1#kc-page-title {
     margin-top: 10px;
-    color: var(--pf-global--BackgroundColor-100);
+    color: var(--pf-global--BackgroundColor--100);
 }
 
 #kc-locale ul {
@@ -168,7 +168,7 @@ div.kc-logo-text span {
 }
 
 #kc-form-wraper .kc-form-login label {
-    color: var(--pf-global--active-color-100);
+    color: var(--pf-global--active-color--100);
 }
 
 #kc-info {
