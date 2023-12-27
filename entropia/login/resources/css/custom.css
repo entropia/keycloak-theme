@@ -1,0 +1,65 @@
+:root {
+	--default-background-color: #ea5b0c;
+	--pf-global--primary-color--100: #ea5b0c;
+	--link-hover-color: var(--default-background-color);
+}
+
+#kc-page-title::before {
+	content: "";
+	height: 290px;
+	display: block;
+	margin-bottom: 20px;
+	background-image: url(../../../common/entropia/img/teebeutel_pride.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 143.37px 200px;
+}
+
+#kc-page-title {
+	color: var(--pf-global--BackgroundColor--100);
+}
+
+#kc-form-wrapper #kc-form-login label {
+	color: var(--pf-global--BackgroundColor--light-100);
+}
+
+#kc-from-wrapper #kc-form-login .pf-c-form-control {
+	background-color: var(--pf-global--BackgroundColor--light-300);
+}
+
+#kc-username {
+	color: var(--pf-global--palette-black-150);
+	height: 290px;
+}
+
+#kc-form-options .checkbox {
+	color: var(--pf-global--Color--light-300);
+}
+
+.login-pf body {
+	color: var(--pf-global--Color--light-200);
+	background: url('../img/background.jpg') no-repeat center center fixed !important;
+	background-size: cover !important;
+}
+
+.pf-c-button.pf-m-primary {
+	background: var(--default-background-color);
+}
+
+.card-pf {
+	background: var(--pf-global--BackgroundColor--dark-300);
+}
+
+/* WebAuthN */
+#kc-form-webauthn .select-auth-box-desc {
+	color: var(--pf-global--palette--black-400);
+}
+#kc-form-webauthn .select-auth-box-headline {
+	color: var(--pf-global--palette--black-150);
+}
+#kc-form-webauthn .select-auth-box-icon {
+	color: var(--default-background-color);
+}
+#kc-form-webauthn .select-auth-box-paragraph {
+	color: var(--pf-global--palette--black-600);
+}
